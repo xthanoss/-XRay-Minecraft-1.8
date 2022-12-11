@@ -26,6 +26,7 @@ public class XRay extends Module{
 		XRay.xrayBlocks.add(Block.getBlockFromName("coal_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("iron_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("gold_ore"));
+		XRay.xrayBlocks.add(Block.getBlockFromName("titanium_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("redstone_ore"));
 		XRay.xrayBlocks.add(Block.getBlockById(74));// Redstone ore glowing
 		XRay.xrayBlocks.add(Block.getBlockFromName("lapis_ore"));
