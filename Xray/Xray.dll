@@ -23,6 +23,7 @@ public class XRay extends Module{
 	@Override
 	public void onEnable()
 	{
+		XRay.xrayBlocks.add(Block.getBlockFromName("titanium_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("coal_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("iron_ore"));
 		XRay.xrayBlocks.add(Block.getBlockFromName("gold_ore"));
